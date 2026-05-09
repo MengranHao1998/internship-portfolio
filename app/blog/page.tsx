@@ -11,6 +11,7 @@ const posts = [
       "Getting introduced to the company, the development environment and the project structure.",
     tag: "Reflection",
     date: "February 2026",
+    image: "/images/blog/week1.jpg"
   },
   {
     title: "Understanding the Project Structure",
@@ -18,6 +19,7 @@ const posts = [
       "Exploring how a React project is structured and how components work together.",
     tag: "Frontend",
     date: "February 2026",
+        image: "/images/blog/week2.jpg"
   },
   {
     title: "First Frontend Tasks",
@@ -25,6 +27,7 @@ const posts = [
       "Making small UI improvements and learning how details affect user experience.",
     tag: "Frontend",
     date: "February 2026",
+    image: "/images/blog/week3.jpg"
   },
   {
     title: "Learning More About APIs",
@@ -32,6 +35,7 @@ const posts = [
       "Understanding how the frontend communicates with the backend through API requests.",
     tag: "Backend",
     date: "February 2026",
+    image: "/images/blog/week4.jpg"
   },
   {
     title: "Working With Dynamic Data",
@@ -39,6 +43,7 @@ const posts = [
       "Displaying backend data in the frontend and handling missing values.",
     tag: "Debugging",
     date: "March 2026",
+    image: "/images/blog/week5.jpg"
   },
   {
     title: "Improving the User Interface",
@@ -46,6 +51,7 @@ const posts = [
       "Improving layout, spacing and consistency in the user interface.",
     tag: "Frontend",
     date: "March 2026",
+    image: "/images/blog/week6.jpg"
   },
   {
     title: "Understanding Backend Logic",
@@ -53,6 +59,7 @@ const posts = [
       "Learning how backend routes, requests and database communication work.",
     tag: "Backend",
     date: "March 2026",
+    image: "/images/blog/week7.jpg"
   },
   {
     title: "Solving Bugs",
@@ -60,6 +67,7 @@ const posts = [
       "Debugging API response issues and learning to solve problems step by step.",
     tag: "Debugging",
     date: "March 2026",
+    image: "/images/blog/week8.jpg"
   },
   {
     title: "Reusable React Components",
@@ -67,6 +75,7 @@ const posts = [
       "Learning how reusable components make code cleaner and easier to maintain.",
     tag: "React",
     date: "April 2026",
+    image: "/images/blog/week9.jpg"
   },
   {
     title: "Team Collaboration",
@@ -74,6 +83,7 @@ const posts = [
       "Learning how developers communicate and solve problems together.",
     tag: "Teamwork",
     date: "April 2026",
+    image: "/images/blog/week10.jpg"
   },
   {
     title: "Learning More About Git",
@@ -81,6 +91,7 @@ const posts = [
       "Practicing branches, commits and merge conflicts.",
     tag: "Git",
     date: "April 2026",
+    image: "/images/blog/week11.jpg"
   },
   {
     title: "Backend Validation",
@@ -88,6 +99,7 @@ const posts = [
       "Understanding why backend validation is important.",
     tag: "Backend",
     date: "April 2026",
+    image: "/images/blog/week12.jpg"
   },
   {
     title: "Responsive Design",
@@ -95,27 +107,7 @@ const posts = [
       "Testing layouts on different screen sizes and improving responsiveness.",
     tag: "CSS",
     date: "May 2026",
-  },
-  {
-    title: "Reflection on My Progress",
-    description:
-      "Looking back at my growth since the beginning of the internship.",
-    tag: "Reflection",
-    date: "May 2026",
-  },
-  {
-    title: "Learning About Clean Code",
-    description:
-      "Improving code readability with better structure and naming.",
-    tag: "Code",
-    date: "May 2026",
-  },
-  {
-    title: "Final Thoughts",
-    description:
-      "Reflecting on frontend, backend and personal growth.",
-    tag: "Growth",
-    date: "June 2026",
+    image: "/images/blog/week13.jpg"
   },
 ];
 

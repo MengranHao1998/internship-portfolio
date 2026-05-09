@@ -105,30 +105,6 @@ const latestPosts = [
     tag: "CSS",
     date: "May 2026",
   },
-
-  {
-    title: "Reflection on My Progress",
-    description:
-      "Looking back at my growth since the beginning of the internship.",
-    tag: "Reflection",
-    date: "May 2026",
-  },
-
-  {
-    title: "Learning About Clean Code",
-    description:
-      "Improving code readability with better structure and naming.",
-    tag: "Code",
-    date: "May 2026",
-  },
-
-  {
-    title: "Final Thoughts",
-    description:
-      "Reflecting on frontend, backend and personal growth.",
-    tag: "Growth",
-    date: "June 2026",
-  },
 ];
 
 export default function HomePage() {
