@@ -43,7 +43,7 @@ export default function HomePage() {
       <section className={styles.hero}>
         <div className={styles.heroText}>
           <p className={styles.subtitle}>
-            Energy & Software Engineering
+            Graduaat Programmeren Stage Portfolio
           </p>
 
           <h2>
