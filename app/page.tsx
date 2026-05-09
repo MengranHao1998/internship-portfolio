@@ -3,25 +3,131 @@ import styles from "./page.module.css";
 
 const latestPosts = [
   {
-    title: "First Week at Sungrow",
+    title: "Starting My Internship",
     description:
-      "Learning about BESS systems and safety procedures.",
+      "Getting introduced to the company, the development environment and the project structure.",
+    tag: "Reflection",
+    date: "February 2026",
+  },
+
+  {
+    title: "Understanding the Project Structure",
+    description:
+      "Exploring how a React project is structured and how components work together.",
+    tag: "Frontend",
+    date: "February 2026",
+  },
+
+  {
+    title: "First Frontend Tasks",
+    description:
+      "Making small UI improvements and learning how details affect user experience.",
+    tag: "Frontend",
+    date: "February 2026",
+  },
+
+  {
+    title: "Learning More About APIs",
+    description:
+      "Understanding how the frontend communicates with the backend through API requests.",
+    tag: "Backend",
+    date: "February 2026",
+  },
+
+  {
+    title: "Working With Dynamic Data",
+    description:
+      "Displaying backend data in the frontend and handling missing values.",
+    tag: "Debugging",
+    date: "March 2026",
+  },
+
+  {
+    title: "Improving the User Interface",
+    description:
+      "Improving layout, spacing and consistency in the user interface.",
+    tag: "Frontend",
+    date: "March 2026",
+  },
+
+  {
+    title: "Understanding Backend Logic",
+    description:
+      "Learning how backend routes, requests and database communication work.",
+    tag: "Backend",
+    date: "March 2026",
+  },
+
+  {
+    title: "Solving Bugs",
+    description:
+      "Debugging API response issues and learning to solve problems step by step.",
+    tag: "Debugging",
+    date: "March 2026",
+  },
+
+  {
+    title: "Reusable React Components",
+    description:
+      "Learning how reusable components make code cleaner and easier to maintain.",
+    tag: "React",
+    date: "April 2026",
+  },
+
+  {
+    title: "Team Collaboration",
+    description:
+      "Learning how developers communicate and solve problems together.",
+    tag: "Teamwork",
+    date: "April 2026",
+  },
+
+  {
+    title: "Learning More About Git",
+    description:
+      "Practicing branches, commits and merge conflicts.",
+    tag: "Git",
+    date: "April 2026",
+  },
+
+  {
+    title: "Backend Validation",
+    description:
+      "Understanding why backend validation is important.",
+    tag: "Backend",
+    date: "April 2026",
+  },
+
+  {
+    title: "Responsive Design",
+    description:
+      "Testing layouts on different screen sizes and improving responsiveness.",
+    tag: "CSS",
+    date: "May 2026",
+  },
+
+  {
+    title: "Reflection on My Progress",
+    description:
+      "Looking back at my growth since the beginning of the internship.",
     tag: "Reflection",
     date: "May 2026",
   },
+
   {
-    title: "Solving a Modbus Issue",
+    title: "Learning About Clean Code",
     description:
-      "Debugging communication between controllers and battery racks.",
+      "Improving code readability with better structure and naming.",
     tag: "Code",
     date: "May 2026",
   },
+
   {
-    title: "Lessons Learned",
+    title: "Final Thoughts",
     description:
-      "Communication is just as important as technical knowledge.",
-    tag: "Lessons Learned",
-    date: "May 2026",
+      "Reflecting on frontend, backend and personal growth.",
+    tag: "Growth",
+    date: "June 2026",
   },
 ];
 
@@ -53,10 +159,10 @@ export default function HomePage() {
           </h2>
 
           <p className={styles.description}>
-            This website documents my internship experience
-            as a Field Service Engineer and software developer
-            working on large-scale battery energy storage projects
-            in Belgium.
+            This website documents my internship journey as a student in
+            Graduaat Programmeren. During this internship, I focus on
+            frontend and backend development, working with modern web
+            technologies, APIs, databases and clean code practices.
           </p>
 
           <div className={styles.buttons}>
