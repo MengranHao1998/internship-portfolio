@@ -157,12 +157,15 @@ export default function BlogPage() {
 
       <section className={styles.postGrid}>
         {filteredPosts.map((post, index) => (
-          <article className={styles.card} key={index}>
-            <span className={styles.tag}>{post.tag}</span>
-            <h3>{post.title}</h3>
-            <p>{post.description}</p>
-            <small>{post.date}</small>
-          </article>
+            <article className={styles.card} key={index}>
+                <img className={styles.postImage} src={post.image} alt={post.title} />
+                <div className={styles.cardContent}>
+                <span className={styles.tag}>{post.tag}</span>
+                <h3>{post.title}</h3>
+                <p>{post.description}</p>
+                <small>{post.date}</small>
+                </div>
+            </article>
         ))}
       </section>
     </main>
