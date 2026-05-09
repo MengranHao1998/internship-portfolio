@@ -25,15 +25,29 @@ export default function AboutPage() {
           <h2>Hi, I'm Mengran.</h2>
 
           <p>
-            I am a student in Graduaat Programmeren. This portfolio is created
-            for my internship and shows my learning process, reflections and
-            progress as a future software developer.
+            I am a student in Graduaat Programmeren. This portfolio was created
+            for my WPL internship and shows my learning process, weekly
+            reflections and growth as a future software developer.
           </p>
 
           <p>
-            During my internship, I focus on frontend and backend development.
-            I work with modern web technologies, APIs, databases and clean code
-            practices.
+            During this internship, I mainly focus on frontend and backend
+            development. I work on improving existing features, adding new
+            functionality based on customer requirements, fixing bugs and
+            maintaining the application.
+          </p>
+
+          <h3>Internship Information</h3>
+
+          <p>
+            I am doing my internship at <strong>Renoman SRL</strong>. My role
+            during the internship is <strong>stagiair</strong>.
+          </p>
+
+          <p>
+            My tasks include making changes and optimizations based on customer
+            needs, adding requested features, solving daily bugs and supporting
+            the maintenance of the project.
           </p>
 
           <h3>My Focus Areas</h3>
@@ -43,17 +57,17 @@ export default function AboutPage() {
             <li>Backend development</li>
             <li>React and Next.js</li>
             <li>APIs and databases</li>
-            <li>Debugging and problem solving</li>
+            <li>Bug fixing and maintenance</li>
+            <li>Customer-oriented feature development</li>
             <li>Teamwork and communication</li>
           </ul>
 
-          <h3>Internship Information</h3>
+          <h3>Goal of This Portfolio</h3>
 
           <p>
-            This internship is part of my Graduaat Programmeren education. The
-            goal is to apply programming knowledge in a professional development
-            environment and to reflect on my growth throughout the internship
-            period.
+            The goal of this website is to document my internship experience,
+            reflect on the work I do and show how I develop my technical and
+            professional skills throughout the internship period.
           </p>
 
           <div className={styles.links}>
