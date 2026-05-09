@@ -71,12 +71,8 @@ export default function AboutPage() {
           </p>
 
           <div className={styles.links}>
-            <a href="https://www.linkedin.com/" target="_blank">
+            <a href="https://www.linkedin.com/in/mengran-hao-980423hmr/" target="_blank">
               LinkedIn
-            </a>
-
-            <a href="https://github.com/" target="_blank">
-              GitHub
             </a>
           </div>
         </div>
