@@ -149,7 +149,7 @@ export default function HomePage() {
       <section className={styles.hero}>
         <div className={styles.heroText}>
           <p className={styles.subtitle}>
-            Graduaat Programmeren Stage Portfolio
+            Programmeren Stage Portfolio
           </p>
 
           <h2>
@@ -160,7 +160,7 @@ export default function HomePage() {
 
           <p className={styles.description}>
             This website documents my internship journey as a student in
-            Graduaat Programmeren. During this internship, I focus on
+            Programmeren. During this internship, I focus on
             frontend and backend development, working with modern web
             technologies, APIs, databases and clean code practices.
           </p>
