@@ -145,3 +145,36 @@
 .card small {
   color: #8b949e;
 }
+@media (max-width: 768px) {
+  .header {
+    padding: 50px 20px 20px;
+    text-align: center;
+  }
+
+  .header h2 {
+    font-size: 38px;
+  }
+
+  .header p {
+    font-size: 16px;
+  }
+
+  .filterSection {
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .postGrid {
+    padding: 30px 20px 60px;
+    justify-content: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .postImage {
+    height: 170px;
+  }
+}

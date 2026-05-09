@@ -111,3 +111,35 @@
   text-decoration: none;
   font-weight: bold;
 }
+@media (max-width: 768px) {
+  .aboutSection {
+    flex-direction: column;
+    padding: 50px 20px;
+    gap: 35px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .imageBox img {
+    width: 260px;
+    height: 260px;
+  }
+
+  .textBox h2 {
+    font-size: 36px;
+  }
+
+  .textBox p,
+  .textBox ul {
+    font-size: 16px;
+  }
+
+  .textBox ul {
+    text-align: left;
+  }
+
+  .links {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
