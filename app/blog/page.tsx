@@ -115,7 +115,7 @@ const posts = [
     "Implementing requested changes and understanding customer needs.",
   tag: "Backend",
   date: "May 2026",
-  image: "/images/blog/week13.jpg"
+  image: "/images/blog/week14.jpg"
   },
   {
   title: "Application Maintenance and Bug Fixing",
