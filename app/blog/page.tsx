@@ -123,7 +123,7 @@ const posts = [
     "Maintaining existing functionality and solving daily issues.",
   tag: "Code",
   date: "June 2026",
-  image: "/images/blog/week13.jpg"
+  image: "/images/blog/week15.jpg"
   },
 ];
 
