@@ -115,14 +115,16 @@ const posts = [
     "Implementing requested changes and understanding customer needs.",
   tag: "Backend",
   date: "May 2026",
-},
-{
+  image: "/images/blog/week13.jpg"
+  },
+  {
   title: "Application Maintenance and Bug Fixing",
   description:
     "Maintaining existing functionality and solving daily issues.",
   tag: "Code",
   date: "June 2026",
-},
+  image: "/images/blog/week13.jpg"
+  },
 ];
 
 const tags = ["All", ...new Set(posts.map((post) => post.tag))];
