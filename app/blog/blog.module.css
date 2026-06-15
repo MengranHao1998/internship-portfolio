@@ -1,12 +1,9 @@
-css
 .container {
   min-height: 100vh;
   background-color: #0d1117;
   color: white;
   font-family: Arial, sans-serif;
 }
-
-/* NAVBAR */
 
 .navbar {
   display: flex;
@@ -29,17 +26,14 @@ css
 .navLinks a {
   color: white;
   text-decoration: none;
-  transition: 0.2s;
 }
 
 .navLinks a:hover {
   color: #00ff99;
 }
 
-/* HEADER */
-
 .header {
-  padding: 70px 60px 30px;
+  padding: 40px 60px 20px;
 }
 
 .subtitle {
@@ -49,17 +43,15 @@ css
 }
 
 .header h2 {
-  font-size: 52px;
+  font-size: 42px;
   margin-bottom: 20px;
 }
 
 .header p {
   color: #c9d1d9;
-  line-height: 1.8;
-  max-width: 900px;
+  line-height: 1.7;
+  max-width: 850px;
 }
-
-/* FILTER */
 
 .filterSection {
   padding: 20px 60px;
@@ -74,7 +66,6 @@ css
   border-radius: 999px;
   cursor: pointer;
   font-weight: bold;
-  transition: 0.2s;
 }
 
 .filterButton {
@@ -83,57 +74,48 @@ css
   color: white;
 }
 
-.filterButton:hover {
-  border-color: #00ff99;
-  color: #00ff99;
-}
-
 .activeButton {
   background-color: #00ff99;
   color: black;
   border: 1px solid #00ff99;
 }
 
-/* BLOG GRID */
-
 .postGrid {
   padding: 40px 60px 80px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
-  gap: 35px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
-/* CARD */
-
 .card {
+  width: 340px;
   background-color: #161b22;
   border: 1px solid #30363d;
-  border-radius: 18px;
+  border-radius: 16px;
   overflow: hidden;
-  transition: 0.25s;
+  transition: 0.2s;
 }
 
 .card:hover {
-  transform: translateY(-6px);
-  border-color: #00ff99;
+  transform: translateY(-5px);
 }
 
 .postImage {
   width: 100%;
-  height: 240px;
+  height: 180px;
   object-fit: cover;
   display: block;
 }
 
 .cardContent {
-  padding: 28px;
+  padding: 24px;
 }
 
 .cardTop {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
 .tag {
@@ -151,43 +133,38 @@ css
 }
 
 .cardContent h3 {
-  font-size: 26px;
-  margin-bottom: 15px;
+  font-size: 22px;
+  margin-bottom: 12px;
 }
 
 .cardContent p {
   color: #c9d1d9;
-  line-height: 1.8;
-  margin-bottom: 20px;
+  line-height: 1.6;
+  margin-bottom: 16px;
 }
-
-/* SECTIONS */
 
 .cardContent h4 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 16px;
+  margin-bottom: 8px;
   color: #00ff99;
-  font-size: 18px;
+  font-size: 16px;
 }
-
-.cardContent ul {
-  padding-left: 22px;
-  margin-bottom: 15px;
-}
-
-.cardContent li {
-  color: #c9d1d9;
-  line-height: 1.7;
-  margin-bottom: 6px;
-}
-
-/* TIMELINE FEEL */
 
 .cardContent h4::before {
   content: "▸ ";
 }
 
-/* MOBILE */
+.cardContent ul {
+  padding-left: 20px;
+  margin-bottom: 12px;
+}
+
+.cardContent li {
+  color: #c9d1d9;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
 
 @media (max-width: 768px) {
   .navbar {
@@ -203,33 +180,30 @@ css
   }
 
   .header {
-    padding: 40px 20px;
+    padding: 40px 20px 20px;
     text-align: center;
   }
 
   .header h2 {
-    font-size: 38px;
+    font-size: 34px;
   }
 
   .filterSection {
-    padding: 10px 20px 25px;
+    padding: 15px 20px;
     justify-content: center;
   }
 
   .postGrid {
-    padding: 20px;
-    grid-template-columns: 1fr;
+    padding: 25px 20px 60px;
+    justify-content: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 360px;
   }
 
   .postImage {
-    height: 180px;
-  }
-
-  .cardContent {
-    padding: 22px;
-  }
-
-  .cardContent h3 {
-    font-size: 22px;
+    height: 170px;
   }
 }
