@@ -366,23 +366,7 @@ const posts = [
       "I learned how professional development teams work",
       "I still want to improve my problem-solving and code structure",
     ],
-  },
-  {
-  title: "Working With Customer Requests",
-  description:
-    "Implementing requested changes and understanding customer needs.",
-  tag: "Backend",
-  date: "May 2026",
-  image: "/images/blog/week14.jpg"
-  },
-  {
-  title: "Application Maintenance and Bug Fixing",
-  description:
-    "Maintaining existing functionality and solving daily issues.",
-  tag: "Code",
-  date: "June 2026",
-  image: "/images/blog/week15.jpg"
-  },
+  }
 ];
 
 const tags = ["All", ...new Set(posts.map((post) => post.tag))];
